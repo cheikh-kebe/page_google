@@ -1,0 +1,125 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color:#222
+}
+.haut{
+    display: flex;
+    padding: 6px;
+    justify-content: flex-end;
+    line-height: 24px;
+}
+.gauche{
+    padding-left: 15px;
+
+}
+.gauche a{
+    text-decoration: none;
+}
+.droite{
+    padding-left: 10px;
+}
+.droite a{
+    text-decoration: none;
+}
+.connex{
+    background: #1a73e8;
+    border: 1px solid transparent;
+    color: rgb(250, 245, 245);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: .25px;
+    line-height: 16px;
+    margin-left: 10px;
+    margin-right: 8px;
+    padding: 9px 23px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+}
+.kml{
+    height: 100%;
+    width: auto;
+    opacity: 0.5;
+    vertical-align: bottom;
+    border: none;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    padding-top:50px;
+} 
+.barre {
+    display: flex;
+    justify-content: center;
+      
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.offered{
+    display: flex;
+    justify-content: center;
+}
+.langue{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.input{
+    display: flex;
+    border: 2px solid #d9dbdf;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 40px;
+    margin: 0;
+    width: 500px;
+    max-width: 584px;
+}
+.button1{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.pays{
+    padding: 15px 30px;
+    border-bottom: 2px solid #dadce0;
+    font-size: 15px;
+    color: black;
+}
+.bas{
+   background-color:grey;
+}
+.climat{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+.vert{
+    height: 14px;
+    margin-right: 6px;
+}
+#foot{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+}
